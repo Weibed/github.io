@@ -19,30 +19,30 @@ body {
     margin: 20px 80px;
 
 }
- table #familymember {
+#familymember {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 40%;
 }
 
-table #familymember td, #familymember th {
+#familymember td, #familymember th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-table #familymember tr:nth-child(odd){background-color: lightsalmon;}
+#familymember tr:nth-child(odd){background-color: lightsalmon;}
 
-table #familymember tr:nth-child(even){background-color: lightblue;}
+#familymember tr:nth-child(even){background-color: lightblue;}
 
-table #familymember tr:hover {background-color: #ddd;}
+#familymember tr:hover {background-color: #ddd;}
 
-table #familymember th {
+#familymember th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: black;
     color: white;
 }
-table #familymember tr {
+#familymember tr {
     text-align: center;
 }
