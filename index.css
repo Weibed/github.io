@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    text-shadow: 0px 0px 30px red, 0PX -2PX 10PX orange, 0px -2px blue, -2px 0px blue, 2px 0px blue, 0px 2px blue;
+    color: yellow;
+    text-align: center;
+
+}
+
+h2 { 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: bisque;
+    margin: 20px 80px;
+
+}
