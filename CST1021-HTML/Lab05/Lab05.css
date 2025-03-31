@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* Lab 5 External Style Sheet - David Weibel */
+
+h1 {background-color:lightgreen; text-align: center;}
+p {color: blue; background-color: yellow;}
+p.firstclass {color: green;}
+p.secondclass{color: green;}
+p.normal{color: inherit;background-color: inherit;}
+a:link{color:#0080ff ;}
+a:visited{color: #04BA04;}
+a:hover{color: #AA5FFF;}
+em{font-style: normal; background-color: lavender; font-weight:bold}
+strong{font-style:italic; background-color: sandybrown; font-weight: normal;}
