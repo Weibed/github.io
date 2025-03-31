@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Lab 9 External Style Sheet - David Weibel */
+
+@font-face {
+    font-family: 'zeyada';
+    src: url('zeyada.woff2') format('woff2'), url('zeyada-regular.ttf') format('truetype');
+
+
+}
+
+@font-face {
+    font-family: 'eater';
+    src: url('eater-regular.woff2') format('woff2'), url('eater-regular.ttf') format('truetype');
+
+}
+
+h1 {
+    font-family: zeyada;
+    font-size: 60px;
+    color: orange;
+    text-shadow: 2PX 2PX 5PX rgb(255, 255, 255);
+
+}
+
+.h1 {
+    font-family: eater;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0px 0px 30px black, 2PX 2PX 5PX orange, 3px 3px 3px black;
+    color: rgb(239, 63, 63)
+}
+
+* {
+    font-family: zeyada;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+h2 {
+    font-family: eater;
+    text-shadow: 1px 1px 2px rgb(182, 137, 79), 0 0 30px gray, 0 0 16px brown;
+    color: black;
+}
+
+body {
+    background-color: rgb(4, 71, 37);
+
+}
+
+header,
+footer {
+    background-image: url('spiderWeb.jpg');
+}
+
+
+span,
+a {
+    font-family: 'Courier New', Courier, monospace;
+}

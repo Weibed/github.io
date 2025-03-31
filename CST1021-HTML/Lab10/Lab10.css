@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* Lab 10 External Style Sheet - David Weibel */
+
+ol.a {list-style-type:upper-roman ;}
+ol.b {list-style-type:upper-latin ;}
+ol.c {list-style-type: decimal;}
+ol.d {list-style-type:lower-alpha ;}
+ol.e {list-style-type: lower-roman;}
+ul.a {list-style-type: disc;}
+ul.b {list-style-type: circle;}
+ul.c {list-style-type: square;}
