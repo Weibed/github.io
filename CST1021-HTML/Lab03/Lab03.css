@@ -1,8 +1,0 @@
-@charset "utf-8";
-/* Lab03.css */
-
-a { color: blue; }
-a.page { color: black; font-size: 3em; }
-a.page img { height: 48px; padding: 0 .1em; vertical-align: sub; width: 93px; }
-body { font-size: 1.25em; }
-h1 { background-color: #efd; }
