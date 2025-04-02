@@ -1,0 +1,175 @@
+/* General Styles */
+@media (max-width: 768px) {
+    
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px 9px 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    top: 0;
+    background-color: black;
+}
+
+.logo {
+    max-height: 50px;
+ 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* Mission Section */
+#mission {
+    background: url('img/img-mission-background.jpg') no-repeat center;
+    padding: 0px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 1);
+    width: 1200px;
+    
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+h4 {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+/* Featured Tea Section */
+#featured-tea {
+    
+    padding: 50px 0;
+    
+}
+
+.tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 100px;
+}
+
+.tea-item {
+    width: 300px;
+    height: 200px;
+    margin: 0px 10px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    
+}
+
+.imageDescription {
+    display: flex;
+}
+
+.fallBerryBlitz {
+    background-image: url('img/img-berryblitz.jpg');
+    
+}
+
+.spicedRum {
+    background-image: url('img/img-spiced-rum.jpg');
+    
+}
+
+.seasonalDonuts {
+    background-image: url('img/img-donut.jpg');
+    
+}
+
+.myrtleAve {
+    background-image: url('img/img-myrtle-ave.jpg');
+    
+}
+
+.bedfordBizzare {
+    background-image: url('img/img-bedford-bizarre.jpg');
+    
+}
+/* Locations Section */
+#locations {
+    background: url('img/img-locations-background.jpg') no-repeat center;
+    padding: 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+    
+
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+    
+}
+
+#copyright {
+    text-align: left;
+}
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
