@@ -1,60 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Tea Cozy</title>
-    <link rel="stylesheet" href="teaCozy.css">
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <div class="logo"><img src="img/img-tea-cozy-logo.png" alt="Tea Cozy" height="50px"></div>
-        <nav>
-            <ul>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#featured-tea">Featured Tea</a></li>
-                <li><a href="#locations">Locations</a></li>
-            </ul>
-        </nav>
-    </header>
+/* General Styles */
+@media (max-width: 768px) {
+    
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-    <!-- Mission Section -->
-    <section id="mission">
-        <div class="overlay">
-            <h2>Our Mission</h2>
-            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-        </div>
-    </section>
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px 9px 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    top: 0;
+    background-color: black;
+}
 
-    <!-- Featured Tea Section -->
-    <section id="featured-tea">
-        <h2>Tea of the Month</h2>
-        <h4>What's Steeping at The Tea Cozy?</h4>
-        <div class="tea-gallery">
-            <div class="tea-item fallBerryBlitz">Fall Berry Blitz Tea</div>
-            <div class="tea-item spicedRum">Spiced Rum Tea</div>
-            <div class="tea-item seasonalDonuts">Seasonal Donuts</div>
-            <div class="tea-item myrtleAve">Myrtle Ave Tea</div>
-            <div class="tea-item bedfordBizzare">Bedford Bizarre Tea</div>
-        </div>
-    </section>
+.logo {
+    max-height: 50px;
+ 
+}
 
-    <!-- Locations Section -->
-    <section id="locations">
-        <h2>Locations</h2>
-        <div class="location-container">
-            <div class="location"><h3 id="location">Downtown</h3>384 West 4th St<br> Suite 108<br> Portland, Maine</div>
-            <div class="location"><h3 id="location">East Bayside</h3>3433 Pisherman’s Avenue<br> (Northwest Corner)<br> Portland, Maine</div>
-            <div class="location"><h3 id="location">Oakdale</h3>515 Crescent Avenue<br> Second Floor<br> Portland, Maine</div>
-        </div>
-    </section>
-    <h2>The Tea Cozy</h2>
-    <!-- Footer Section -->
-    <footer>
-        <p>contact@theteacozy.com</p>
-        <p>917-555-8904</p>
-        <p id="copyright">copyright The Tea Cozy 2024</p>
-    </footer>
-</body>
-</html>
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* Mission Section */
+#mission {
+    background: url('img/img-mission-background.jpg') no-repeat center;
+    padding: 0px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 1);
+    width: 1200px;
+    
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+h4 {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+/* Featured Tea Section */
+#featured-tea {
+    
+    padding: 50px 0;
+    
+}
+
+.tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 100px;
+    
+}
+
+.tea-item {
+    width: 300px;
+    height: 235px;
+    margin: 0px 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    
+}
+
+.imageDescription {
+    display: flex;
+}
+
+.fallBerryBlitz {
+    background-image: url('img/img-berryblitz.jpg');
+    
+}
+
+.spicedRum {
+    background-image: url('img/img-spiced-rum.jpg');
+    
+}
+
+.seasonalDonuts {
+    background-image: url('img/img-donut.jpg');
+    
+}
+
+.myrtleAve {
+    background-image: url('img/img-myrtle-ave.jpg');
+    
+}
+
+.bedfordBizzare {
+    background-image: url('img/img-bedford-bizarre.jpg');
+    
+}
+/* Locations Section */
+#locations {
+    background: url('img/img-locations-background.jpg') no-repeat center;
+    padding: 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+    
+
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+    
+}
+
+#copyright {
+    text-align: left;
+}
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
