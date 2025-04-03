@@ -86,6 +86,7 @@ input {
 }
 
 .card-column {
+	display: grid;
 	background-color: #ffffff;
 	gap: 10px;
 	min-height: 700px;
